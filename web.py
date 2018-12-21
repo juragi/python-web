@@ -1,8 +1,11 @@
 from flask import Flask, render_template, request
+import randomTest
+
 app = Flask(__name__)
 
 @app.route('/')
 def index():
+    randomTest.printRandom()
     return render_template('home.html')
 
 @app.route('/about')
