@@ -1,0 +1,12 @@
+.search-card {
+	margin: 0px;
+	padding:4px;
+}
+
+.search-card {
+	cursor: pointer;
+}
+
+.search-card:hover {
+	background-color: lightgrey;
+}
